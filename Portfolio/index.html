@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leonel Villalba | Desarrollador Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Oswald:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav>
+            <a href="#">
+                <img class="logo" src="img/logo-def.png" alt="logo">
+            </a>
+
+            <div class="enlaces-menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <button class="menu-ham">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+                <!-- <ion-icon name="menu-outline"></ion-icon> -->
+            </button>
+        </nav>
+    </header>
+
+    <div class="hero" id="inicio">
+        <div class="avatar">
+            <img src="img/avatar.jpg" alt="avatar">
+        </div>
+        <div class="contenedor-hero">
+            <h1>Desarrollador Web</h1>
+            <p><i class="fas fa-map-marker-alt"></i>Argentina</p>
+            <a href="#contacto" class="boton">Contactar</a>
+        </div>
+    </div>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="acerca">
+        <div class="conteiner-title">
+            <h2>ACERCA DE MI</h2>
+        </div>
+        <div class="flex-about">
+            <div class="img">
+                <img src="img/foto-perfil.jpg" alt="perfil">
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>LEONEL VILLALBA</h2>
+                    <p>Soy Web Developer y Estudiante. Busco un empleo de full time o part time para desarrollar mis
+                        conocimientos y crecer en el mundo TI. Tengo muchas habilidades que aportar además de todos
+                        los conocimientos en mi formación.</p>
+                    <a href="https://drive.google.com/drive/folders/1AEtw5MGirPjtEb7B_adTAYyNEalcDvTI?usp=sharing"
+                        class="btn-cv">Descargar CV<ion-icon name="download-outline" class="download-i"></ion-icon></a>
+                </div>
+                <div class="skills">
+                    <h2>Habilidades</h2>
+                    <div class="skills-img">
+                        <div class="html">
+                            <img src="img/HTML-Logo.png" alt="HTML5">
+                        </div>
+                        <div class="css">
+                            <img src="img/CSS-Logo.png" alt="Css">
+                        </div>
+                        <div class="bootstrap">
+                            <img src="img/Bootstrap-Logo.png" alt="Bootstrap">
+                        </div>
+                        <div class="javascript">
+                            <img src="img/JavaScript-Logo.png" alt="JavaScript">
+                        </div>
+                        <div class="angular">
+                            <img src="img/Angular-Logo.png" alt="Angular">
+                        </div>
+                        <div class="python">
+                            <img src="img/Python-Logo.png" alt="Python">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="conteiner-title">
+            <h2>PORTAFOLIO</h2>
+        </div>
+        <div class="conteiner-portfolio">
+            <div class="portfolio-projects">
+                <div class="card">
+                    <div class="project-img"><a href="https://aplicacion-presupuesto-1.netlify.app/">
+                            <img src="img/proyecto-presupuesto.png" alt="Presupuesto">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <a href="https://aplicacion-presupuesto-1.netlify.app/">
+                            <h2 class="card-title">Web de Presupuesto</h2>
+                            <p class="card-description">App destinada a calcular presupuestos personales</p>
+                            <!-- <a href="https://aplicacion-presupuesto-1.netlify.app/" class="card-btn">Ir</a> -->
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="project-img"><a href="https://music-player1547.netlify.app/">
+                            <img src="img/music-player-project.png" alt="Reproductor de Música">
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <a href="https://music-player1547.netlify.app/">
+                            <h2 class="card-title">Reproductor de Música</h2>
+                            <p class="card-description">Proyecto en el cual implemento mis habilidades y simulo un
+                                reproductor de música.</p>
+                            <!-- <a href="https://music-player1547.netlify.app/" class="card-btn">Ir</a> -->
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-img"><a href="https://web-bienes-y-raices-leonel-villalba.netlify.app/">
+                            <img src="img/Bienes-project.png" alt="Bienes Raices">
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <a href="https://web-bienes-y-raices-leonel-villalba.netlify.app/">
+                            <h2 class="card-title">Web de Bienes y Raices</h2>
+                            <p class="card-description">Proyecto de Bienes y Raices</p>
+                            <!-- <a href="https://web-bienes-y-raices-leonel-villalba.netlify.app/" class="card-btn">Ir</a> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contacto">
+        <div class="conteiner-title">
+            <h2>CONTACTO</h2>
+        </div>
+        <form method="POST" data-netlify="true" class="form">
+            <legend>Contáctame llenando todos los campos</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre:</label>
+                    <input type="text" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="campo w-100">
+                    <label>Correo:</label>
+                    <input type="mail" name="mail" placeholder="Correo" required>
+                </div>
+                <div class="campo">
+                    <label>Asunto:</label>
+                    <input type="text" name="asunto" placeholder="Asunto" required>
+                </div>
+                <div class="campo w-100">
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                </div>
+
+            </div>
+
+            <div class="enviar">
+                <button>
+                    <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="currentColor"
+                                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <span>Send</span>
+                </button>
+            </div>
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">
+            <a href="#inicio">
+                <img src="img/logo-footer.png" alt="logo">
+            </a>
+        </div>
+        <div class="nav-footer">
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023 Leonel Villalba.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://kit.fontawesome.com/29b0527e24.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+</body>
+
+</html>
